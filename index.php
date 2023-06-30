@@ -15,6 +15,28 @@
         <title>php-badwords</title>
     </head>
     <body>
-        
+        <!-- Form Container -->
+        <div class="container my-5">
+            <!-- Form Row -->
+            <div class="row">
+                <!-- Title Col -->
+                <div class="col-12 my-5 text-center">
+                    <!-- Title -->
+                    <h1>PHP-BADWORDS</h1>
+                </div>
+                <!-- Form Col -->
+                <div class="col-12">
+                    <!-- Form GET -->
+                    <form action="/script.php" method="GET" class="d-flex flex-wrap justify-content-center bg-dark bg-opacity-50 rounded-4 p-5">
+                        <!-- Input Censored Word -->
+                        <input type="text" name="censored-word" placeholder="Inserisci la parola da censurare" class="form-control text-danger fw-bold w-100 p-2 my-5">
+                        <!-- Paragraph TextArea -->
+                        <textarea name="paragraph" cols="30" rows="10" placeholder="Inserisci il testo" class="form-control fw-bold w-100"></textarea>
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-success btn-lg my-5">Invia</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
