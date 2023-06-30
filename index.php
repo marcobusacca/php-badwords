@@ -28,10 +28,10 @@
                 <div class="col-12">
                     <!-- Form GET -->
                     <form action="./script.php" method="GET" class="d-flex flex-wrap justify-content-center bg-dark bg-opacity-50 rounded-4 p-5">
-                        <!-- Input Censored Word -->
-                        <input type="text" name="censored-word" placeholder="Inserisci la parola da censurare" class="form-control text-danger fw-bold w-100 p-2 my-5">
                         <!-- Paragraph TextArea -->
-                        <textarea name="paragraph" cols="30" rows="10" placeholder="Inserisci il testo" class="form-control fw-bold w-100"></textarea>
+                        <textarea name="paragraph" cols="30" rows="10" placeholder="Inserisci il testo" class="form-control fw-bold w-100 p-3 my-5"></textarea>
+                        <!-- Input Censored Word -->
+                        <input type="text" name="censored-word" placeholder="Inserisci la parola da censurare" class="form-control text-danger fw-bold w-100 p-3">
                         <!-- Submit Button -->
                         <button type="submit" class="btn btn-success btn-lg my-5">Invia</button>
                     </form>
