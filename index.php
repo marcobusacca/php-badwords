@@ -27,7 +27,7 @@
                 <!-- Form Col -->
                 <div class="col-12">
                     <!-- Form GET -->
-                    <form action="/script.php" method="GET" class="d-flex flex-wrap justify-content-center bg-dark bg-opacity-50 rounded-4 p-5">
+                    <form action="./script.php" method="GET" class="d-flex flex-wrap justify-content-center bg-dark bg-opacity-50 rounded-4 p-5">
                         <!-- Input Censored Word -->
                         <input type="text" name="censored-word" placeholder="Inserisci la parola da censurare" class="form-control text-danger fw-bold w-100 p-2 my-5">
                         <!-- Paragraph TextArea -->
